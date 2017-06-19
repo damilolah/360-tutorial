@@ -16,6 +16,7 @@
                 <!-- Images for gallery -->
                 <img id="first" src="assets/1.jpg">  <!--Adding 1st image to assets -->
                 <img id="second" src="assets/2.jpg"> <!--Adding 2nd image to assets -->
+                <img id="third" src="assets/3.jpg"> <!--Adding 3rd image to assets -->
                 
                 <!--Task 2: Add Assets for remaining images start at line 19..
                 Make sure they have different id.
@@ -35,6 +36,7 @@
             -->
             <a-curvedimage id="one" src="#first" transparent="true" height="3" radius="5" theta-length="40" rotation="0 280 0" position="0 0.8 0"> </a-curvedimage>
             <a-curvedimage id="two" src="#second" transparent="true" height="3" radius="5" theta-length="40" rotation="0 230 0" position="0 0.8 0"> </a-curvedimage>
+            <a-curvedimage id="three" src="#third" transparent="true" height="3" radius="5" theta-length="40" rotation="0 180 0" position="0 0.8 0"> </a-curvedimage>
             
             
 <!--        <a-curvedimage id="three" src="#third" transparent="true" height="3" radius="5" theta-length="40" rotation="0 180 0" position="0 0.8 0"> </a-curvedimage>
@@ -102,6 +104,9 @@
             //Then your javascript will be document.querySelector("#one").addEventListener('click', function() {window.location.href = "demos/1/index.html";});
 
             //Linking the 3rd image to its 360 view.
+             document.querySelector("#three").addEventListener('click', function() {
+                window.location.href = "demos/3/index.html";
+            });
             
             //Linking the 4th image to its 360 view.
             
